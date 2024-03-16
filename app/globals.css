@@ -1,0 +1,155 @@
+
+
+
+body {
+  background-image: url(./pic/wp12613129-4k-low-poly-wallpapers.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -100px;
+}
+
+.window {
+  padding-top: 10px;
+  background-color: white;
+  width: 25%;
+  height: 440px;
+  margin: auto;
+  border-radius: 25px;
+  border-style: hidden;
+  margin-top: 50px;
+}
+
+
+.hi-img {
+  width: 35%;
+  height: 28%;
+  border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1%;
+  /* transform: rotate(30deg); */
+}
+
+
+.welcome-create {
+  font-size: 120%;
+  margin: 2%;
+  padding: 2%;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+
+.email-input {
+  padding: 1%;
+  margin-top: 2%;
+  display: block;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(201, 200, 200);
+  /* opacity: 80%; */
+  height: 30px;
+  width: 280px;
+  margin: auto;
+  font-size: medium;
+  margin-top: 5%;
+}
+
+.password-input {
+  padding: 1%;
+  margin-top: 2%;
+  display: block;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(201, 200, 200);
+  /* opacity: 80%; */
+  height: 30px;
+  width: 280px;
+  margin: auto;
+  font-size: medium;
+  margin-top: 5%;
+}
+
+
+.remember-input{
+  margin-right: 2%;
+}
+
+
+.remember-div {
+  margin: auto;
+  width: 50%;
+  margin-top: 4%;
+  text-align: center;
+  padding: 0px;
+  font-size: large;
+}
+
+.sub-button {
+  width: 50%;
+  height: 45px;
+  /* border: none; */
+  background-color: rgb(194, 187, 187);
+  margin: auto;
+  display: block;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  font-size: medium;
+}
+
+
+.signup-link-div {
+  text-align: center;
+  font-size: large;
+}
+
+.signup-text {
+  color: rgb(8, 8, 152);
+  text-decoration: underline;
+  padding-left: 2%;
+  font-size: large;
+}
+
+.su-name-input {
+  padding: 1%;
+  display: block;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(201, 200, 200);
+  /* opacity: 80%; */
+  height: 30px;
+  width: 280px;
+  margin: auto;
+  font-size: medium;
+  margin-top: 5%;
+
+}
+
+.su-email-input {
+  padding: 1%;
+  display: block;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(201, 200, 200);
+  /* opacity: 80%; */
+  height: 30px;
+  width: 280px;
+  margin: auto;
+  font-size: medium;
+  margin-top: 5%;
+}
+
+.su-password-input {
+  padding: 1%;
+  display: block;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(201, 200, 200);
+  /* opacity: 80%; */
+  height: 30px;
+  width: 280px;
+  margin: auto;
+  font-size: medium;
+  margin-top: 5%;
+}

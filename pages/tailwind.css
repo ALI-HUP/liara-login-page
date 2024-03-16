@@ -1,0 +1,51 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+.bg-img {
+    @apply absolute inset-0 w-full h-full bg-cover bg-no-repeat bg-center z-[-1] ;
+    background-image: url('./pic/wp12974131-minimal-nature-4k-wallpapers.jpg');
+    background-position-y: -100px;
+    filter: blur(0.5px) sepia(25%);
+}
+
+.window {
+    @apply pt-5 bg-sky-950 w-1/4 h-[440px] mx-auto rounded-lg mt-10;
+}  
+
+.hi-img {
+    @apply w-28 rounded-full block mx-auto;
+}
+
+.welcome-create {
+    @apply text-lg font-bold block text-center mt-2 mb-2 text-slate-100 ;
+}
+
+.input{
+  @apply rounded-md h-9 w-72 mx-auto mt-5 mb-5;
+}
+
+.remember-div {
+    @apply mx-auto w-1/2 -mt-3 text-center text-balance text-slate-100;
+}
+
+.button-div{
+    @apply mt-2 mb-4 flex justify-center items-center;
+}
+
+.sub-button {
+    @apply w-40 h-11 bg-blue-500 block text-base font-bold mr-1;
+}
+
+.forgot-button {
+    @apply bg-emerald-600 h-11 w-28 font-bold text-xs;
+}
+
+.signup-link-div {
+    @apply text-center text-base text-white;
+}
+
+.signup-text {
+    @apply text-blue-400 underline pl-2 text-base font-bold;
+}
